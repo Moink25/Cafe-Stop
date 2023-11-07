@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  
+</head>
+<body>
+   
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+<div x-data="{ cartOpen: false , isOpen: false }" class="bg-white">
+    <header>
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                
+                <div class="w-full text-gray-700 md:text-center text-2xl font-semibold flex ">
+                    <img src="a-letter-logo-png-100.png" alt="" class="w-12 ">
+                   <h2 class="text-12">Asher</h2>
+                </div>
+                <div class="flex items-center justify-end w-full">
+                   
+
+                    
+                </div>
+            </div>
+            <nav :class="isOpen ? '' : 'hidden'" class="sm:flex sm:justify-center sm:items-center mt-4">
+                <div class="flex flex-col sm:flex-row">
+                    <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="admin_after_login.html">Home</a>
+                    <!-- <a class="mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0" href="#">Categories</a> -->
+                 
+                   
+                </div>
+            </nav>
+            <button class="flex items-center mt-4 mx-4 px-3 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                <span><a href="register.php">Add</a></span>
+                
+            </button>
+            <div class="relative mt-6 max-w-lg mx-auto">
+           
+                
+            </div>
+        </div>
+    </header>
+   
+    <main class="my-8">
+        <div class="container mx-auto px-6">
+            <div class="h-[500px] rounded-md overflow-hidden bg-cover bg-center" style="background-image: url('poster.jpg')">
+                <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
+                    <div class="px-10 max-w-xl">
+                        <h2 class="text-2xl text-white font-semibold">Cafe Stop</h2>
+                        <p class="mt-2 text-gray-400">A Hot Cup of Happiness</p>
+                       
+                    </div>
+                </div>
+            </div>
+          
+           
+            
+        </div>
+    </main>
+
+    <footer class="bg-gray-200">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-500 hover:text-gray-400">Asher</a>
+            <p class="py-2 text-gray-500 sm:py-0">All rights reserved</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
