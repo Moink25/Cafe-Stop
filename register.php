@@ -82,7 +82,7 @@
 
         function loadMapScenario() {
             map = new Microsoft.Maps.Map(document.getElementById('map'), {
-                credentials: 'Aoua5qyV-S3MRWLdAj6lvgX66bFtOd1XKcbWaPHbSykHK9L7wJztPpDGwVtxz2HM'
+                credentials: 'BINGMAPAPIKEY'
             });
 
             Microsoft.Maps.loadModule('Microsoft.Maps.Search', function () {
