@@ -30,7 +30,7 @@ $result = $conn->query($sql);
     <title>Location Page</title>
     <!-- Include your head content here -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=Aoua5qyV-S3MRWLdAj6lvgX66bFtOd1XKcbWaPHbSykHK9L7wJztPpDGwVtxz2HM&callback=loadMapScenario' async defer></script>
+    <script type='text/javascript' src='https://www.bing.com/api/maps/mapcontrol?key=BINGMAPAPIKEY&callback=loadMapScenario' async defer></script>
 </head>
 <body>
     <!-- Include your header content here -->
